@@ -100,6 +100,7 @@ button {
   padding: 58px 24px;
   min-height: 85vh;
   justify-content: center;
+  background-image: url(./images/one.png);
   background-position: center;
   color: #172b4d;
 }
