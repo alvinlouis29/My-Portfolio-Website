@@ -155,6 +155,7 @@ h1 {
   justify-content: center;
   letter-spacing: 5px;
   padding: 0;
+  margin-top: 30px;
 }
 
 .social li a {
@@ -175,7 +176,7 @@ h1 {
   height: 40px;
   left: calc(50% - 40px/2 + 0.5px);
   bottom: 4px;
-  margin-top: 64px;
+  margin-top: 44px;
   background: #FFFFFF;
 }
 
