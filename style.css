@@ -162,7 +162,7 @@ h1 {
   margin-top: 30px;
 }
 
-button.open a {
+.open a {
   background-color: #36b37f;
   border-radius: 2px;
   color: white;
@@ -171,7 +171,7 @@ button.open a {
   font-size: 17px;
 }
 
-button.resume a {
+.resume a {
   background-color: #36b37f;
   border-radius: 2px;
   color: white;
@@ -276,7 +276,7 @@ button.resume a {
   background-position: center;
 }
 
-button.open {
+.open {
   display: flex;
   justify-content: center;
   padding: 5px;
@@ -332,7 +332,7 @@ button.open {
   font-size: 40px;
 }
 
-button.resume {
+.resume {
   display: flex;
   justify-content: center;
   padding: 5px;
@@ -405,10 +405,10 @@ button.resume {
   font-weight: 600;
 }
 
-button.open a:hover {
+.open a:hover {
   background: #0f3324;
 }
 
-button.resume a:hover {
+.resume a:hover {
   background: #0f3324;
 }
