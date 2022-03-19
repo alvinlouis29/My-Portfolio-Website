@@ -188,3 +188,83 @@ h1 {
   bottom: 37.5%;
   font-size: 20px;
 }
+
+/* ------- My - recent - works - section  ------ */
+
+.works_section {
+  padding: 24px 0 0 26px;
+}
+
+.recent_works_title {
+  display: flex;
+  justify-content: center;
+}
+
+.recent_works_title h1 {
+  width: 327px;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 24px 0;
+}
+
+.cards {
+  display: grid;
+  align-content: center;
+  padding: 1px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.card {
+  align-self: center;
+  justify-self: center;
+  height: 400px;
+  margin-top: 50px;
+  width: 310px;
+  border: 1px #ebf0ee solid;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 16px;
+}
+
+.content {
+  padding: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sane {
+  height: 200px;
+  background-color: #ebf0ee;
+  border-radius: 10px 0;
+  background-position: center;
+}
+
+.open {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+  
+.content li a {
+  background-color: #ebf0ee;
+  border-radius: 2px;
+  padding: 12px 8px;
+  margin: 0 4px;
+  color: #172b4d;
+  font-size: 12px;
+  line-height: 16px;
+}
