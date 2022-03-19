@@ -30,10 +30,6 @@ a {
   flex-direction: column;
 }
 
-.hidden {
-  display: none;
-}
-
 button {
   border-style: none;
 }
@@ -100,7 +96,7 @@ button {
   padding: 58px 24px;
   min-height: 85vh;
   justify-content: center;
-  background-image: url(./images/one.png);
+  background-image: url(./images/one_mobile.png);
   background-position: center;
   color: #172b4d;
 }
@@ -149,7 +145,7 @@ h1 {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 50px 20px 20px 20px;
   font-size: 20px;
   line-height: 28px;
 }
