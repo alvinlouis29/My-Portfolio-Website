@@ -162,3 +162,27 @@ h1 {
   padding: 0 10px;
   color: #505f79;
 }
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  border: 1px solid #DFE1E6;
+  border-radius: 32px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px/2 + 0.5px);
+  bottom: 4px;
+  margin-top: 64px;
+  background: #FFFFFF;
+}
+
+.arrow i {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+}
