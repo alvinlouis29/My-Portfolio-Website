@@ -167,6 +167,14 @@ h1 {
   font-size: 17px;
 }
 
+.open a:hover {
+  background-color: #0f3324;
+}
+
+.open a:active {
+  background-color: #000000;
+}
+  
 .resume a {
   background-color: #36b37f;
   border-radius: 2px;
@@ -176,6 +184,14 @@ h1 {
   font-size: 17px;
 }
 
+.resume a:hover {
+  background-color: #0f3324;
+}
+
+.resume a:active {
+  background-color: #000000;
+}
+  
 .social li a {
   font-size: 20px;
   padding: 0 10px;
