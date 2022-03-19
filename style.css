@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-    background-color: #0f3324;
+  background-color: #0f3324;
 }
 
 .menu {
@@ -405,10 +405,10 @@ button.resume {
   font-weight: 600;
 }
 
-button.open a:hover  {
+button.open a:hover {
   background: #0f3324;
 }
 
-button.resume a:hover  {
+button.resume a:hover {
   background: #0f3324;
 }
