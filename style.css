@@ -226,11 +226,12 @@ h1 {
 .card {
   align-self: center;
   justify-self: center;
-  height: 400px;
-  margin-top: 50px;
+  height: auto;
+  margin-top: 24px;
   width: 310px;
   border: 1px #ebf0ee solid;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .card h1 {
@@ -241,12 +242,12 @@ h1 {
 }
 
 .content {
-  padding: 20px 0;
-  background-color: white;
+  padding: 20px auto;
   border-radius: 10px;
 }
 
 .sane {
+  margin: 10px auto;
   height: 200px;
   background-color: #ebf0ee;
   border-radius: 10px 0;
@@ -257,14 +258,28 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 5px;
+  margin: 24px auto;
+}
+
+.content li {
+  display: inline-flex;
 }
   
 .content li a {
   background-color: #ebf0ee;
   border-radius: 2px;
   padding: 12px 8px;
-  margin: 0 4px;
+  margin: 0 2px;
   color: #172b4d;
   font-size: 12px;
   line-height: 16px;
+}
+
+.open a {
+  background-color: #36b37f;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  margin: 5px 4px;
+  font-size: 17px;
 }
