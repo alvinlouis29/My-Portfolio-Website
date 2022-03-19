@@ -409,6 +409,15 @@ h1 {
   background: #0f3324;
 }
 
+.open a:active {
+  background: #0f3324;
+}
+  
 .resume a:hover {
   background: #0f3324;
 }
+
+.resume a:active {
+  background: #0f3324;
+}
+  
