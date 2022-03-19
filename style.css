@@ -192,7 +192,7 @@ h1 {
 /* ------- My - recent - works - section  ------ */
 
 .works_section {
-  padding: 0px;
+  padding: 0;
 }
 
 .recent_works_title {
@@ -242,7 +242,7 @@ h1 {
 }
 
 .content {
-  padding: 20px auto;
+  padding: 20px 0;
   border-radius: 10px;
 }
 
@@ -261,10 +261,28 @@ h1 {
   margin: 24px auto;
 }
 
+.open a {
+  background-color: #36b37f;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  margin: 5px 4px;
+  font-size: 17px;
+}
+
+.resume a {
+  background-color: #36b37f;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  margin: 5px 4px;
+  font-size: 17px;
+}
+  
 .content li {
   display: inline-flex;
 }
-  
+
 .content li a {
   background-color: #ebf0ee;
   border-radius: 2px;
@@ -275,14 +293,6 @@ h1 {
   line-height: 16px;
 }
 
-.open a {
-  background-color: #36b37f;
-  border-radius: 2px;
-  color: white;
-  padding: 12px;
-  margin: 5px 4px;
-  font-size: 17px;
-}
 /* --------- About Section------- */
 
 .about {
@@ -356,22 +366,13 @@ h1 {
   background-position: center;
 }
 
-.resume a {
-  background-color: #36b37f;
-  border-radius: 2px;
-  color: white;
-  padding: 12px;
-  margin: 5px 4px;
-  font-size: 17px;
-}  
-
 .weight h1 {
   color: #344563;
   font-size: 24px;
   line-height: 34px;
   padding: 10px;
 }
-  
+
 .cores {
   padding: 0;
 }
