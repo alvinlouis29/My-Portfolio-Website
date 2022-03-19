@@ -192,7 +192,7 @@ h1 {
 /* ------- My - recent - works - section  ------ */
 
 .works_section {
-  padding: 24px 0 0 26px;
+  padding: 0px;
 }
 
 .recent_works_title {
@@ -286,17 +286,23 @@ h1 {
 /* --------- About Section------- */
 
 .about {
-  padding: 20px 15px;
   background-image: url(./images/about-mobile.png);
   background-position: top;
   background-size: contain;
 }
 
 .about p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
   text-align: center;
-  padding: 40px 80px;
   font-size: 20px;
+  line-height: 32px;
   color: #172b4d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding: 24px;
 }
 
 .skill {
@@ -305,7 +311,7 @@ h1 {
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   gap: 10px;
-  padding: 50px 143px;
+  margin: 24px 24px;
 }
 
 .about h1 {
@@ -349,6 +355,15 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.resume a {
+  background-color: #36b37f;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  margin: 5px 4px;
+  font-size: 17px;
+}  
 
 .weight h1 {
   color: #344563;
