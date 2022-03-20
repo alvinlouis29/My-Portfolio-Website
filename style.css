@@ -246,7 +246,7 @@ button.resume {
   position: relative;
   width: 48px;
   height: 4px;
-  background: #36B37E;
+  background: #36b37e;
   border-radius: 24px;
   flex: none;
   order: 1;
@@ -421,6 +421,7 @@ button.open:visited {
   background: #36b37f;
   color: #fff;
 }
+
 button.resume:hover {
   background-color: #fff;
   color: #36b37f;
