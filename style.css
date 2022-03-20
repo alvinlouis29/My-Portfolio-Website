@@ -223,6 +223,7 @@ button.resume {
 
 .recent_works_title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -239,6 +240,19 @@ button.resume {
   line-height: 52px;
   color: #172b4d;
   margin: 24px 0;
+}
+
+.recent_works_title .separator {
+  position: static;
+  width: 48px;
+  height: 4px;
+  left: 139.5px;
+  background: #36B37E;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
 }
 
 .cards {
