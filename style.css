@@ -34,6 +34,10 @@ button {
   border-style: none;
 }
 
+button:hover {
+  background-color: #0f3324;
+}
+
 .menu {
   display: flex;
   flex-basis: 50%;
@@ -158,6 +162,28 @@ h1 {
   margin-top: 30px;
 }
 
+button.open {
+  background-color: #36b37f;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  margin: 24px auto;
+}
+
+button.resume {
+  display: flex;
+  justify-content: center;
+  margin: 24px auto;
+  background-color: #36b37f;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  font-size: 17px;
+}
+
 .social li a {
   font-size: 20px;
   padding: 0 10px;
@@ -187,4 +213,227 @@ h1 {
   top: 25%;
   bottom: 37.5%;
   font-size: 20px;
+}
+
+/* ------- My - recent - works - section  ------ */
+
+.works_section {
+  padding: 0;
+}
+
+.recent_works_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recent_works_title h1 {
+  width: 327px;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 24px 0;
+}
+
+.recent_works_title .separator {
+  position: relative;
+  width: 48px;
+  height: 4px;
+  background: #36b37e;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px auto 62px auto;
+}
+
+.cards {
+  display: grid;
+  align-content: center;
+  padding: 1px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.card {
+  align-self: center;
+  justify-self: center;
+  height: auto;
+  margin-top: 24px;
+  width: 310px;
+  border: 1px #ebf0ee solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 16px;
+}
+
+.content {
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.sane {
+  margin: 10px auto;
+  height: 200px;
+  background-color: #ebf0ee;
+  border-radius: 10px 0;
+  background-position: center;
+}
+
+.content li {
+  display: inline-flex;
+}
+
+.content li a {
+  background-color: #ebf0ee;
+  border-radius: 2px;
+  padding: 12px 8px;
+  margin: 0 2px;
+  color: #172b4d;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* --------- About Section------- */
+
+.about {
+  background-image: url(./images/about-mobile.png);
+  background-position: top;
+  background-size: contain;
+}
+
+.about p {
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+  color: #172b4d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding: 24px;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  gap: 10px;
+  margin: 24px 24px;
+}
+
+.about h1 {
+  font-size: 40px;
+}
+
+.weight {
+  background-color: #ebf0ee;
+  border: 1px #a0a0a0 solid;
+  border-radius: 10px;
+}
+
+.featured {
+  display: grid;
+  justify-content: center;
+  padding: 180px 80px 0 80px;
+}
+
+.language {
+  background-image: url(./images/lang.png);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.frame-works {
+  background-image: url(./images/frameworks.png);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skills {
+  background-image: url(./images/skills.png);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.weight h1 {
+  color: #344563;
+  font-size: 24px;
+  line-height: 34px;
+  padding: 10px;
+}
+
+.cores {
+  padding: 0;
+}
+
+.weight ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.weight li {
+  margin: 12px 0;
+}
+
+.weight li a {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px 4px;
+  color: #36b37e;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+button.open:hover {
+  background-color: #fff;
+  color: #36b37f;
+  border: 1px solid #36b37f;
+}
+
+button.open:active {
+  background: #0f2833;
+  color: #fff;
+}
+
+button.open:visited {
+  background: #36b37f;
+  color: #fff;
+}
+
+button.resume:hover {
+  background-color: #fff;
+  color: #36b37f;
+  border: 1px solid #36b37f;
+}
+
+button.resume:active {
+  background: #0f2833;
+  color: #fff;
+}
+
+button.resume:visited {
+  background: #36b37f;
+  color: #fff;
 }
