@@ -13,8 +13,6 @@ The main objectives for this project are:
 3. Build a My portfolio website.
 4. Use images and backgrounds to enhance the look of the website.
 
-## [live Demo]()
-
 ## To run the project locally :
 
 1. Open it in vscode
