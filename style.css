@@ -437,3 +437,17 @@ button.resume:visited {
   background: #36b37f;
   color: #fff;
 }
+
+.form_section {
+  padding: 0 24px;
+}
+
+#form_title {
+  color: #172b4d;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
