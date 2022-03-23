@@ -451,3 +451,62 @@ button.resume:visited {
   line-height: 52px;
   text-align: center;
 }
+
+#mobile {
+  margin: 52px 0 46px 0;
+}
+
+input {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+  margin-bottom: 24px;
+}
+
+textarea {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+}
+
+#full_name {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  margin: 0;
+  height: 48px;
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+#email {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  margin: 0;
+  height: 48px;
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+#message {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  height: 114px;
+  width: 100%;
+  padding: 15px 16px;
+  border-radius: 4px;
+}
+
+#mobile li {
+  margin-bottom: 24px;
+}
