@@ -460,6 +460,7 @@ input {
   background-color: #fff;
   box-sizing: border-box;
   border: 1px solid #d0d9d4;
+  margin-bottom: 24px;
 }
 
 textarea {
@@ -508,4 +509,32 @@ textarea {
 
 #mobile li {
   margin-bottom: 24px;
+}
+
+.social_footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social_footer ul {
+  display: flex;
+  width: fit-content;
+  letter-spacing: 20px;
+  justify-content: center;
+}
+
+.social_footer ul li a {
+  font-size: 20px;
+  color: #505f79;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  margin-top: 19px;
+  padding-bottom: 100px;
 }
