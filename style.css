@@ -450,8 +450,13 @@ button.resume:visited {
   color: #fff;
 }
 
-.form_section {
+#form_footer {
   padding: 0 24px;
+  background: url(/images/footer.png)  no-repeat 100% 70%;
+}
+
+img footer.png {
+  margin-bottom: 100px;
 }
 
 #form_title {
