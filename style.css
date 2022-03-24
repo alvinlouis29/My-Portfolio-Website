@@ -242,6 +242,18 @@ button.resume {
   margin: 24px 0;
 }
 
+footer .separator {
+  position: relative;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 134px auto 8px auto;
+}
+
 .recent_works_title .separator {
   position: relative;
   width: 48px;
@@ -436,4 +448,109 @@ button.resume:active {
 button.resume:visited {
   background: #36b37f;
   color: #fff;
+}
+
+#form_footer {
+  padding: 0 24px;
+  background: url(/images/footer.png)  no-repeat 100% 70%;
+}
+
+img footer.png {
+  margin-bottom: 100px;
+}
+
+#form_title {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#mobile {
+  margin: 52px 0 46px 0;
+}
+
+input {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+}
+
+textarea {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+}
+
+#full_name {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  margin: 0;
+  height: 48px;
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+#email {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  margin: 0;
+  height: 48px;
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+#message {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  height: 114px;
+  width: 100%;
+  padding: 15px 16px;
+  border-radius: 4px;
+}
+
+#mobile li {
+  margin-bottom: 24px;
+}
+
+.social_footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social_footer ul {
+  display: flex;
+  width: fit-content;
+  letter-spacing: 20px;
+  justify-content: center;
+}
+
+.social_footer ul li a {
+  font-size: 20px;
+  color: #505f79;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  margin-top: 19px;
+  padding-bottom: 100px;
 }
